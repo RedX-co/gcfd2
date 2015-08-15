@@ -259,7 +259,7 @@
 			$scope.send = function(contact) { // send the message
 				if (!$scope.contactSent && isValidEmail(contact.email)) {
 					$scope.contactSent = null;
-					var firebaseRef = new Firebase("https://redx-co.firebaseio.com/email"); // your firebase location here
+					var firebaseRef = new Firebase("https://gcfd2.firebaseio.com/email"); // your firebase location here
 					firebaseRef.push($scope.contact, function complete() {
 						$scope.contactSent = true;
 						$scope.$apply();
