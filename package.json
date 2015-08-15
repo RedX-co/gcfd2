@@ -1,0 +1,13 @@
+{
+  "name": "Gem2Fire",
+  "version": "1.0.0",
+  "description": "RedX.co",
+  "dependencies": {
+    "harp": "*",
+    "firebase": "^2.1.2"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "2.1.x"
+  }
+}
